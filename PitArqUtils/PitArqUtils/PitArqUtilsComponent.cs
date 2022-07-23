@@ -22,7 +22,7 @@ namespace PitArqUtils
         public PitArqUtilsComponent()
           : base("PitArqUtils", "ASpi",
               "Construct an Archimedean, or arithmetic, spiral given its radii and number of turns.",
-              "Curve", "Primitive")
+              "PitArq", "Test")
         {
         }
 

@@ -14,7 +14,7 @@ namespace PitArqUtils
         public SplitCurveWithCurve()
           : base("Split Curve With Curve", "SplitCurveCurve",
               "Split a curve or multiple curves with another closed curve as an outline.",
-              "Intersect", "Physical")
+              "PitArq", "Intersect")
         {
         }
 
