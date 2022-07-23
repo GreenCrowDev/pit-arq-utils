@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SplitCurveWithCurve.cs" />
     <Compile Include="PitArqUtilsComponent.cs" />
     <Compile Include="PitArqUtilsInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
