@@ -63,6 +63,16 @@ namespace PitArqUtils.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DivideDistances {
+            get {
+                object obj = ResourceManager.GetObject("DivideDistances", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IconSplitCurveWithCurve {
             get {
                 object obj = ResourceManager.GetObject("IconSplitCurveWithCurve", resourceCulture);
