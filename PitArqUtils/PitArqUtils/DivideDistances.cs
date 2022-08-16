@@ -72,6 +72,8 @@ namespace PitArqUtils
 
             var t0 = curve.Domain.Min;
             points.Add(curve.PointAt(t0));
+            tangents.Add(curve.TangentAt(t0));
+            parameters.Add(t0);
 
             var sphere_center = curve.PointAt(t0);
             var t = t0;
